@@ -13,6 +13,6 @@ jobs:
     scheme: 'Agora-RTM-Tutorial-Windows'
     sdkurl: $(WindowsRTCSDK)
     solutionName: 'AgoraRTMTutorial.sln'
-    sdkVersion: ''
+    sdkVersion: '1.2.2'
     sdkFolderVersion: '1.2.2'
     Machine: x86
