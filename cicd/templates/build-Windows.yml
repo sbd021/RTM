@@ -23,7 +23,7 @@ jobs:
       solution: '${{ parameters.workingDirectory }}/${{ parameters.solutionName }}'
       buildPlatform: 'win32'
       buildConfiguration: 'Release'
-      WindowsRTCSDK: 'https://download.agora.io/sdk/release/Agora_RTM_SDK_for_Windows_${{ parameters.Machine }}_v${{ parameters.sdkVersion }}.zip'
+      WindowsRTCSDK: 'https://download.agora.io/rtmsdk/release/Agora_RTM_SDK_for_Windows_${{ parameters.Machine }}_v${{ parameters.sdkVersion }}.zip'
       sdkunzipPath: 'AgoraSDK/product_sdk'
     steps:
       - script: echo "${{ parameters.sdkurl }}" && ls
